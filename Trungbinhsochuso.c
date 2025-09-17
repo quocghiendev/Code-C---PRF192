@@ -25,10 +25,11 @@ int main() {
 			dem=dem+1;
 		}	
 	}
-	printf("%.2f",(float)tong/dem);
+	printf("%.1f",(float)tong/dem);
     //--FIXED PART - DO NOT EDIT ANY THINGS HERE
     printf("\n");
     system("pause");
     return(0);
 }
+
 
